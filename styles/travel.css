@@ -148,7 +148,7 @@
         .popular-tour-container {
             display: flex;
             gap: 80px;
-            margin-top: 100px;
+            margin-top: 80px;
         }
         /* .popular-tour-content {
             width: 50%;
@@ -168,9 +168,103 @@
             line-height: 26px;
             margin-bottom: 32px;
         }
-        /* .popular-tour-img {
+        /* Destination section */
+        
+        .destination-container {
+            text-align: center;
+            margin-top: 80px;
+        }
+        
+        .destination-title {
+            color: #131318;
+            font-size: 2.5rem;
+            font-size: 40px;
+            font-weight: 800;
+            margin-bottom: 24px;
+        }
+        
+        .destination-description {
+            color: rgba(19, 19, 24, 0.70);
+            font-size: 1rem;
+            font-weight: 400;
+            margin-bottom: 48px;
+        }
+        
+        .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .row img {
+            width: 100%;
+            height: 100%;
+        }
+        /* why us section */
+        
+        .why-us-content {
+            margin-top: 80px;
+            text-align: center;
+        }
+        
+        .why-us-title {
+            color: #131318;
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        
+        .why-us-description {
+            color: rgba(19, 19, 24, 0.70);
+            font-size: 1rem;
+            font-weight: 400;
+            margin: 15px 0 30px 0;
+        }
+        
+        .why-us-card {
+            display: flex;
+            gap: 25px;
+        }
+        
+        .why-us-card1 {
+            border-radius: 16px;
+            border: 1px solid rgba(251, 181, 99, 0.20);
+            background: rgba(251, 181, 99, 0.05);
+            padding: 30px;
+        }
+        
+        .why-us-card2 {
+            border-radius: 16px;
+            border: 1px solid rgba(41, 206, 246, 0.20);
+            background: rgba(41, 206, 246, 0.05);
+            padding: 30px;
+        }
+        
+        .why-us-card img {
+            width: 60px;
+            height: 60px;
+        }
+        
+        .card-title {
+            color: #131318;
+            font-size: 1.5rem;
+            font-weight: 800;
+        }
+        
+        .card-description {
+            color: #5A5A5D;
+            font-size: 1rem;
+            font-weight: 400;
+        }
+        
+        .why-us-card-section {
             width: 50%;
-        } */
+            margin: 0 auto;
+            margin-top: 25px;
+        }
         /* Responsive for mobile device */
         
         @media screen and (max-width: 600px) {
@@ -180,7 +274,9 @@
             .nav-container,
             .nav-content ul,
             .travel-info,
-            .popular-tour-container {
+            .popular-tour-container,
+            .row,
+            .why-us-card {
                 flex-direction: column;
             }
             .nav-heading,
@@ -188,9 +284,6 @@
                 width: 100%;
                 justify-content: center;
             }
-            /* .nav-content {
-                padding-left: 0;
-            } */
             .nav-content ul {
                 text-align: center;
                 gap: 20px;
@@ -198,11 +291,14 @@
             .travel-info-details {
                 margin-bottom: 10px;
             }
-            /* .popular-tour-content,
-            .popular-tour-img {
-                width: 100%;
-            } */
             .popular-tour-img img {
+                width: 100%;
+            }
+            .row img {
+                width: 335px;
+                height: 176px;
+            }
+            .why-us-card-section {
                 width: 100%;
             }
         }
