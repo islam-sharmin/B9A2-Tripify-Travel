@@ -380,7 +380,6 @@
                 justify-content: center;
                 align-items: center;
                 padding-top: 80px;
-                /* margin-bottom: 0; */
             }
             
             .footer-content img {
@@ -392,7 +391,6 @@
                 color: #131318;
                 font-size: 2rem;
                 font-weight: 800;
-                /* margin-bottom: 0; */
             }
             
             .footer-description {
