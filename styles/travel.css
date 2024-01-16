@@ -423,6 +423,38 @@
                 margin-top: 50px;
                 padding-bottom: 50px;
             }
+            /* get trips section */
+            
+            .trips {
+                margin-top: 80px;
+                text-align: center;
+            }
+            
+            .trips-title {
+                color: #131318;
+                font-size: 2.5rem;
+                font-weight: 800;
+            }
+            
+            .trips-description {
+                color: #5A5A5D;
+                font-size: 1rem;
+                font-weight: 400;
+                padding-bottom: 20px;
+            }
+            
+            .trips-icon-container {
+                display: flex;
+                gap: 24px;
+                justify-content: center;
+                text-align: center;
+            }
+            
+            .icon {
+                box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+                border-radius: 16px;
+                padding: 30px;
+            }
             /* Responsive for mobile device */
             
             @media screen and (max-width: 600px) {
@@ -444,7 +476,8 @@
                 .popular-tour-container,
                 .row,
                 .why-us-card,
-                .subscribe {
+                .subscribe,
+                .trips-icon-container {
                     flex-direction: column;
                 }
                 .nav-heading,
