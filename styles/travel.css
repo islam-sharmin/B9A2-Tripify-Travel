@@ -78,8 +78,13 @@
         }
         /* main section */
         
+        main {
+            max-width: 1440px;
+            margin: 0 auto;
+        }
+        
         section {
-            width: 80%;
+            width: 90%;
             margin: 0 auto;
         }
         /* banner section */
@@ -150,9 +155,6 @@
             gap: 80px;
             margin-top: 80px;
         }
-        /* .popular-tour-content {
-            width: 50%;
-        } */
         
         .popular-tour-title {
             color: #131318;
@@ -203,95 +205,11 @@
             height: 100%;
         }
         
-        .maldives-img {
+        .row1-img {
             position: relative;
         }
         
-        .maldives {
-            color: #FFF;
-            font-size: 1.75rem;
-            font-weight: 800;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        .indonesia-img {
-            position: relative;
-        }
-        
-        .indonesia {
-            color: #FFF;
-            font-size: 1.75rem;
-            font-weight: 800;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        .srilanka-img {
-            position: relative;
-        }
-        
-        .srilanka {
-            color: #FFF;
-            font-size: 1.75rem;
-            font-weight: 800;
-            position: absolute;
-            top: 55%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        .north-america-img {
-            position: relative;
-        }
-        
-        .north-america {
-            color: #FFF;
-            font-size: 1.75rem;
-            font-weight: 800;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        .kashmir-img {
-            position: relative;
-        }
-        
-        .kashmir {
-            color: #FFF;
-            font-size: 1.75rem;
-            font-weight: 800;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        .bangladesh-img {
-            position: relative;
-        }
-        
-        .bangladesh {
-            color: #FFF;
-            font-size: 1.75rem;
-            font-weight: 800;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        .bandarban-img {
-            position: relative;
-        }
-        
-        .bandarban {
+        .row1 {
             color: #FFF;
             font-size: 1.75rem;
             font-weight: 800;
@@ -367,7 +285,6 @@
         
         .subscribe {
             display: flex;
-            /* justify-content: center; */
             gap: 20px;
             margin-top: 80px;
         }
@@ -376,7 +293,6 @@
             border-radius: 16px;
             border: 1px solid #FF5400;
             padding: 40px;
-            /* text-align: center; */
         }
         
         .subscribe-title {
@@ -421,7 +337,7 @@
         .subscribe-and-save {
             position: relative;
             bottom: 185px;
-            left: 195px;
+            left: 320px;
             border-radius: 16px;
             background: #FF5400;
             width: 250px;
